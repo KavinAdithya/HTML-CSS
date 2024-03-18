@@ -1,0 +1,12 @@
+.james-image{
+    width:600px;
+    height:600px;
+    object-fit:cover;
+    object-position:right;
+}
+.input-box{
+    color:blue;
+    font-size:40px;
+    height:200px;
+    width:300px;
+}

@@ -1,0 +1,14 @@
+.kavin-image{
+    width:200px;
+    border-radius:40px;
+}
+.kavin-image:hover{
+    height:150px;
+    width:150px;
+    object-fit:cover;
+    object-position:left;
+    border-radius:0;
+}
+.kavin-image:active{
+    border-radius:100px;
+}
