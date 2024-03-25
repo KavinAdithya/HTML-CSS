@@ -1,0 +1,33 @@
+.body-tag{
+    background-color:black;
+}
+.name-input,
+.email-input{
+    display:block;
+    padding-top:4px;
+    margin-bottom:10px;
+    padding-right:45px;
+    padding-bottom:3px;
+}
+.thank-para{
+    color:black;
+    display:inline-block;
+    width:230px;
+    background-color:white;
+}
+.google-logo{
+    width:83px;
+    margin-left:105px;
+    display:block;
+    background-color:black;
+    margin-bottom:15px;
+}
+.search-input{
+    width:280px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:8px;
+    border-radius:20px;
+    border-style:solid;
+    border-color:white;
+}
