@@ -1,0 +1,18 @@
+.box-division{
+    background-color:red;
+    border-color:red;
+    width:200px;
+    height:200px;
+    display:inline-block;
+    color:red;
+    vertical-align:top;
+}
+.circle-division{
+    display:inline-block;
+    margin-left:20px;
+    background-color:green;
+    color:green;
+    width:200px;
+    height:200px;
+    border-radius:100px;
+}
