@@ -79,3 +79,65 @@ div{
     height:74px;
     margin-bottom:200px;
 }
+.row-div{
+    display:block;
+    border: 2px solid white;
+    margin-top:10px;
+    height:120px;
+    background-color:white;
+    width:500px;
+}
+
+.image-div{
+   width:200px;
+   height:200px;
+}
+
+.image-img{
+    width:200px;
+    height:120px;
+}
+
+.para-div{
+    width:290px;
+    height:120px;
+    vertical-align:top;
+}
+.header-div{
+    width:120px;
+    height:60px;
+    display:block;
+    margin-bottom:0px;
+}
+
+.header-para{
+    margin-top:8px;
+    font-size:16px;
+    font-family:Arial;
+    font-weight:bold;
+    width:300px;
+    display:block;
+}
+
+.sony-div,
+.view-div{
+    height:20px;
+    width:200px;
+    display:block;
+    vertical-align:top;
+    margin-top:0;
+}
+
+.sony-para,
+.view-para{
+    display:block;
+    color:grey;
+    font-size:12px;
+    margin-top:5px;
+
+}
+.sony-para{
+    margin-bottom:0;
+    margin-top:8px;
+}
+
