@@ -1,0 +1,40 @@
+.whole-div{
+    height:350px;
+    width:302px;
+    border:2px solid black;
+}
+.top-inner-div{
+    border:2px solid black;
+    width:300px;
+    height:180px;
+}
+.big-image{
+    width:300px;
+    height:180px;
+    object-fit:cover;
+}
+.bottom-inner-div{
+    width:302px;
+    height:170px;
+}
+.bottom-left-div{
+    height:165px;
+    width:70px;
+    display:inline-block;
+ 
+}
+div{
+    border: 2px solid black;
+}
+p{
+    margin-top:0;
+    margin-bottom:0;
+}
+.small-image{
+    width:50px;
+    border-radius:30px;
+    height: 50px;
+    object-fit:cover;
+    margin-top:10px;
+    margin-left:8px;
+}
