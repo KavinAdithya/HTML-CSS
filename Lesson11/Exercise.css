@@ -1,0 +1,35 @@
+.outer-grid{
+    display:grid;
+    grid-template-columns:200px 75px;
+}
+.left-grid{
+    background-color:grey;
+}
+.right-grid{
+    background-color:pink;
+}
+.middle-grid{
+    margin-top:10px;
+    display:grid;
+    grid-template-columns:50px 1fr 75px;
+}
+.left-side{
+    background-color:grey;
+}
+.middle-side{
+    background-color:pink;
+}
+.right-side{
+    background-color:grey;
+}
+.bottom-grid{
+    margin-top:10px;
+    display:grid;
+    grid-template-columns:50px 50px 50px 50px;
+    row-gap:10px;
+    column-gap:10px;
+
+}
+.pink{
+    background-color:pink;
+}

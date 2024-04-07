@@ -1,0 +1,74 @@
+
+.top-most-div{
+
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    height:350px;
+}
+.outer-div{
+    width:230;
+    height:350px;
+}
+.top-div{
+    height:200px;
+    width:225px;
+}
+.main-cat{
+    height:200px;
+    width:225px;
+    object-fit:cover;
+}
+.bottom-div{
+    height:140px;
+    width:225px;
+}
+.oliver-div{
+    height: 40px;
+    margin-bottom:0;
+}
+.oliver-para{
+    font-weight:bold;
+    font-family:Arial;
+    font-size:25px;
+    margin-top:14px;
+    margin-left:7px;
+}
+.mutual-para{
+    font-size:18px;
+    color:grey;
+    margin-top:9px;
+}
+.cat-div{
+    height:40px;
+}
+.mutual-friends{
+    height:40px;
+}
+.cat-mutual{
+    display:grid;
+    grid-template-columns:50px 1fr;
+    height:40px;
+    column-gap:5px;
+}
+.inner-cat{
+    height:40px;
+    width:45px;
+    object-fit:cover;
+    border-radius:20px;
+}
+.add-div{
+    height:50px;
+    vertical-align:top;
+}
+.add-button{
+    color:white;
+    background-color:blue;
+    border:none;
+    padding-top:10px;
+    font-size:20px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-top:15px;
+    border-radius:5px;
+}
