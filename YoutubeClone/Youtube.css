@@ -16,29 +16,33 @@
 }
 .whole-div{
     height:350px;
-    width:302px;
-    display:inline-block;
+    display:grid;
    margin-left:8px;
-
+   vertical-align:top;
+}
+.one-row-div{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
 }
 .top-inner-div{
-    width:300px;
+ 
     height:180px;
 }
 .big-image{
-    width:300px;
+    width:100%;
     height:180px;
     object-fit:cover;
 }
 .bottom-inner-div{
-    width:302spx;
+    display:grid;
+    grid-template-columns: 70px 1fr;
     height:166px;
 }
 .bottom-left-div{
     margin-top:0;
     vertical-align:top;
     height:161px;
-    width:70px;
+
     display:inline-block;
     margin-left:0;
     margin-right:0;
@@ -51,7 +55,6 @@ p{
     margin-bottom:0;
 }
 .small-image{
-    width:50px;
     border-radius:30px;
     height: 50px;
     object-fit:cover;
@@ -59,7 +62,7 @@ p{
     margin-left:8px;
 }
 .bottom-right-div{
-    width:216px;
+  
     margin-left:0;
     display:inline-block;
 }
@@ -67,14 +70,15 @@ p{
     font-weight:bold;
     font-family:Roboto,Arial;
     line-height:20px;
+    margin-top:0;
 }
 .top-div{
     margin-top:8px;
-    margin-bottom:20px;
+    margin-bottom:16px;
     font-size:18px;
 }
 .middle-div{
-    margin-top:32px;
+    margin-top:0px;
     margin-bottom:10px;
 }
 .mar-para{
