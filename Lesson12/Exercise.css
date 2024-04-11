@@ -1,0 +1,47 @@
+.div1,.div2{
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+}
+.div1-top{
+    background-color:lightblue;
+    width:200px;
+}
+.div1-bottom{
+    background-color:lightpink;
+    width:75px;
+}
+.div2-top{
+    background-color:lightblue;
+    width:50px;
+}
+.div2-middle{
+    background-color: lightpink;
+    flex:1;
+}
+.div2-bottom{
+    background-color:lightblue;
+    width:75px;
+}
+.div3{
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    border:1px solid black;
+}
+.div3-top{
+    background-color:lightpink;
+}
+.div4{
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+    border:1px solid grey;
+    height:50px;
+    align-items:center;
+    justify-content:space-between;
+}
+.div4-top{
+    background-color:lightpink;
+}
