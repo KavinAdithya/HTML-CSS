@@ -1,0 +1,60 @@
+
+.all-income{
+    color:gray;
+    font-size:10px; 
+    margin-top:3px;
+    padding-left:5px;  
+}
+.email{
+    display:flex;
+    height:70px;
+}
+.left-div{
+    width:36px;
+    padding-right:0;
+}
+.cat-image{
+    margin-right:0;
+    width:35px;
+    margin-top:10px;
+    border-radius:20px;
+    height:35px;
+    object-fit:cover;
+}
+.right-div{
+    margin-top:10px;
+    display:flex;
+    flex:1;
+    height:70px;
+    margin-left:8px;
+}
+.right-left-div{
+    display:flex;
+    flex-direction:column;
+}
+p{
+    margin:0;
+    font-size:10px;
+}
+.chewy-para{
+    font-weight:bold;
+    margin-left:0;
+}
+.big-para{
+    font-weight:bold;
+    margin-top:3px;
+}
+.hey-para{
+    color:gray;
+    margin-top:2px;
+}
+.pm-div{
+    width:50px;
+    display:flex;
+    
+}
+.header{
+    border:1px solid gray;
+    padding:10px;
+    box-shadow:1px 1px 8px 1px gray;
+}

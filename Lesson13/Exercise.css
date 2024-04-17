@@ -1,0 +1,42 @@
+.header-section{
+    display:flex;
+    flex-direction:row;
+    margin-bottom:10px;
+}
+.left-div{
+    background-color:lightpink;
+    height:40px;
+    width:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-div{
+    background-color:black;
+    color:white;
+    height:17px;
+}
+.right-div{
+    width:200px;
+    background-color:lightblue;
+}
+.right1-div{
+    width:200px;
+    background-color:lightblue;
+    display:flex;
+    justify-content: space-between;
+}
+.row2-div{
+    background-color:black;
+    color:white;
+    font-size:14px;
+    width:28px;
+}
+.row1-div{
+    font-size:14px;
+    margin-top:3px;
+}
+.bottom-div{
+    margin-top:15px;
+    font-size:14px;
+}
