@@ -55,6 +55,100 @@ p{
 }
 .header{
     border:1px solid gray;
+    width:300px;
     padding:10px;
     box-shadow:1px 1px 8px 1px gray;
+}
+.box-div{
+    height:230px;
+    width:350px;
+    border:1px solid black;
+    margin-top:200px;
+}
+
+.top-div{
+    border:1px solid rgb(199, 199, 199);
+    padding:10px;
+    width:344px;
+    height:150px;
+    margin-top:7px;
+    margin-left:2px;
+    margin-bottom:2px;
+    display:flex;
+}
+.left-div-top{
+    height:149px;
+    width:60px;
+}
+.right-div-top{
+    height:149px;
+    flex:1;
+}
+.super-div{
+    height:17px;
+}
+.cat-twitter{
+    width:40px;
+    height:40px;
+    object-fit:cover;
+    border-radius:20px;
+    margin-left:3px;
+    margin-top:3px;
+}
+.super-para{
+    font-weight:700;
+    font-family:Arial;
+    margin-top:2px;
+}
+.a{
+    color:grey;
+    margin-left:3px;
+}
+.what-div{
+    height:40px;
+}
+.what-para{
+    font-size:13px;
+    width:280px;
+    font-weight:500;
+    font-family:Arial;
+    margin-top:5px;
+    line-height:17px;
+}
+.bottom-div{
+    height:88px;
+    display:flex;
+    flex-direction:row;
+    flex:1;
+}
+.empty-div{
+    border:1px solid rgb(214, 214, 214);
+    margin-top:5px;
+    height:80px;
+    justify-content:end;
+    display:flex;
+    width:280px;
+    border-radius:10px;
+    background-color:rgb(218, 217, 217);
+}
+.back-div{
+    background-color:white;
+    width:198px;
+    border-radius:0 10px 10px 0;
+    
+}
+.youtube-para{
+    margin-top:10px;
+    font-size:12px;
+    font-weight:bold;
+    color:grey;
+    font-family:Arial;
+    margin-left:10px;
+    margin-bottom:5px;
+}
+.backend-para{
+    margin-left:10px;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
 }
