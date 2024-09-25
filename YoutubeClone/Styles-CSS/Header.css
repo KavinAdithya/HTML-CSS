@@ -1,4 +1,5 @@
 .header-section{
+    margin-top:0;
     display:flex;
     flex-direction:row;
     padding:10px;
@@ -7,21 +8,82 @@
 }
 .youtube-section{
     margin-top:0px;
-    background-color:red;
-    width:200px;
+    border:1px solid black;
+    width:350px;
     height:50px;
-    
+    display:flex;
+    align-items:center;
+}
+.logo-div{
+    margin-top:0;
+    width:100px;
+    height:50px;
+    padding-top:0;
+    margin-left:5px;
+    margin-bottom:43px;
+}
+.logo-image{
+    width:90px;
+    height:80px;
+
+}
+.ham-div{
+    width:25px;
+    margin:15px;
+    margin-left:25px;
+    margin-top:5px;
+}
+.search-div{
+    width:flex;
+}
+.search-box{
+    display:block;
 }
 .search-section{
     flex:1;
-    margin-left:70px;
+    margin-left:30px;
     max-width:700px;
-    background-color:green;
     height:50px;
+    display:flex;
+    flex-direction:row;
+    border:1px solid black;
 }
 .sign-in-section{
-    width:220px;
+    width:400px;
     height:50px;
-    background-color:blue;
     margin-left:40px;
+    border:1px solid black;
+}
+.search-div{
+   flex:1; 
+}
+.search-box{
+    padding:13px;
+    font-size:18px;
+}
+.voice-div{
+    padding-top:0px;
+    width:50px;
+    border-radius:0px;
+}
+.voice-icon{
+    margin-top:3px;
+    background-color:rgb(245, 244, 244);
+    border-radius:35px;
+    height:25px;
+    padding:2px;
+    width:35px;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+.circle-div{
+    width:70px;
+    border:1px solid rgb(204, 200, 200); 
+    margin-right:10px;
+    background-color:rgb(245, 244, 244);
+}
+.circle-search{
+    width:25px;
+    margin-top:10px;
+    margin-left:20px;
 }
